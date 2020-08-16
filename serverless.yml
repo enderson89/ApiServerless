@@ -13,6 +13,9 @@
 
 service: enderson-swapi-service
 
+plugins:
+  - serverless-dotenv-plugin
+
 provider:
   name: aws
   runtime: nodejs12.x
